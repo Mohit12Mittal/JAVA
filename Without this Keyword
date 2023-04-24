@@ -1,0 +1,25 @@
+class Cot
+{
+	int rollno;
+	String name;
+	Cot(int roll,String name1){
+		rollno=roll;
+		name=name1;
+	}
+	void display()
+	{
+		System.out.println(rollno+" "+name);
+	}
+}
+ public class Const {
+	public static void main(String[] args) {
+     Cot s1=new Cot(15,"mohit");
+	Cot s2=new Cot(20,"Arkan");
+		
+
+	s1.display();
+	s2.display();
+
+}
+}
+	

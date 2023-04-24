@@ -1,0 +1,28 @@
+class Mohit{
+	int rollno;
+	int marks;
+	String name;
+Mohit(int rollno,int marks,String name){
+	this.rollno=rollno;
+	this.marks=marks;
+	this.name=name;
+}
+
+void display()
+{
+	System.out.println(rollno+" " +marks+ " "+name);
+}
+}
+ class This {
+
+	public static void main(String[] args) {
+		Mohit s1=new Mohit(80,100,"mohit");
+		Mohit s2=new Mohit(50,90,"Ankit");
+		s1.display();
+		s2.display();
+		}
+}
+
+
+
+

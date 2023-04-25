@@ -1,0 +1,22 @@
+class P
+{
+	int salary=10000;
+}
+
+class P1 extends P
+{
+	int benefits=100;
+
+}
+
+public class Inheitence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		P1 s1=new P1();
+		System.out.println(s1.salary+" " +s1.benefits);
+
+
+	}
+
+}

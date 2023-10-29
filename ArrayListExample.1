@@ -1,0 +1,40 @@
+import java.util.*;
+public class ArrayListExample {
+    public static void main(String [] args){
+        Scanner sc=new Scanner(System.in);
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+//        list.add(25);
+//        list.add(252);
+//        list.add(255);
+//        list.add(256);
+//        System.out.println(list);
+//        list.add(257);
+//        list.set(1,85);
+//        System.out.println(list.indexOf(255));
+//        list.remove(2);
+//        System.out.println(list.contains(251));
+//        System.out.println(list.get(3));
+//        System.out.println("Now its time to take user input");
+//        for(int i=0;i<5;i++)
+//        {
+//            list.add(sc.nextInt());
+//        }
+//        for(int i=0;i<5;i++)
+//        {
+//            System.out.println(list.get(i));
+//        }
+//        System.out.println(list.size());
+        for(int i=0;i<3;i++)
+        {
+            list.add(new ArrayList<>());
+        }
+        for(int i=0;i<3;i++)
+        {
+            for(int j=0;j<3;j++)
+            {
+                list.get(i).add(sc.nextInt());
+            }
+        }
+        System.out.println(list);
+    }
+}
